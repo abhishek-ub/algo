@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import zillow.BinarySearchTree.Node;
-
 public class TestBTree {
 
 	@Test
