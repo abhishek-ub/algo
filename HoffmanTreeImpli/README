@@ -10,8 +10,6 @@ Huffman coding is one of the most important and elegant techniques in informatio
 counts in children
 4. Repeat steps 2 and 3 until all nodes are connected
           
-Your task is to implement one function that will build a Huffman tree for a given input sequence of symbols, and another one that will release a memory occupied by the tree.
-
 Instructions
 
 The a7.cpp file and the corresponding symbol.hpp file provide code to handle input text, to represent input symbols and their count, and supply a structure of a binary tree node.
