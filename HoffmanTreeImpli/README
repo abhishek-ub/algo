@@ -15,15 +15,17 @@ Your task is to implement one function that will build a Huffman tree for a give
 Instructions
 
 The a7.cpp file and the corresponding symbol.hpp file provide code to handle input text, to represent input symbols and their count, and supply a structure of a binary tree node.
+
 In a7.hpp implement function huffman_tree considering the following:
 The function should return a pointer to a root node of the Huffman tree for a sequence of symbols in [first,last).
 Arguments first,last represent the input sequence of symbols, and (last - first) ≥ 2.
 Each element in the sequence is of type symbol, which stores a symbol and its count (inspect symbol.hpp).
 Tree consists of nodes of type bnode<symbol> (inspect symbol.hpp).
 For a given node in the resulting Huffman tree, left child must store symbol that is "less than" symbol in right child (inspect symbol.hpp).
+
 In a7.hpp implement function release_tree considering the following:
 The function should free memory occupied by the tree returned by huffman_tree to ensure that no memory leaks occur when program terminates.
-You can edit only a7.hpp and all your code must be contained in this file only.
+
 To test your code you can use these two files: dummy.txt and loremipsum.txt.
 
 If executed like this:
